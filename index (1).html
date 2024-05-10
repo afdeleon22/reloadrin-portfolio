@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>reloadrin - Portfolio</title>
+    <link rel="stylesheet" href="./style.css"/>
+    <script src="./script.js"></script>
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <nav>
+      <div id="home">
+        <div class="profile_name">
+          Aileen Deleon
+          <div class="contact_info">
+            <img src="html_finalprojimages/envelope.png" alt="https://icons8.com/icon/124377/circled-envelope"/>
+          reloadrin@gmail.com
+        </div>
+        <div style="clear:both;"></div>
+        <div class="contact_info">
+          
+          @reloadrin on Twitter/X
+
+        </div>
+        </div>
+
+        <div class="topdiv">
+          <a class="topmenu" href="#about-me">About Me</a>
+          <a class="topmenu" href="#skills">Skills</a>
+          <a class="topmenu" href="#projects">Projects</a>
+          <a class="topmenu" href="#recommendations">Recommendations</a>
+
+        </div>
+  
+          </div>
+      </div>    
+    </nav>
+
+    <!-- About Me -->
+    <section id="about-me" class="container">
+      <div>
+        <iframe src="https://www.behance.net/embed/project/198250061?ilo0=1" height="316" width="404" allowfullscreen lazyload frameborder="0" allow="clipboard-write" refererPolicy="strict-origin-when-cross-origin"></iframe>
+      </div>
+
+      <div>
+          <h1>
+            Hello, I'm Rin <img src="html_finalprojimages/waving-hand.png" width="60px"/>
+          </h1>
+          <p>
+            I am an aspiring JavaScript developer, artist, and storyteller striving to make a creative career transition. <br>
+            Currently, I am learning the basics front end development through IBM's courses.<br>
+            I also enjoy creating illustrations in Photoshop and Clip Studio Paint to add to my portfolio.<br>
+            Thank you for visiting my page!<br>
+            
+          </p>
+      </div>
+    </section>
+              
+    <!-- Skills -->
+    <section id="skills">
+      <h2>Skills</h2>
+      <div style="clear:both;"></div>
+
+      <div class="all_skills">
+        <div class="skill">
+          <img src="html_finalprojimages/html5.png"/>
+          <h6>HTML</h6>
+          <p>3 months experience</p>
+        </div>  
+
+        <div class="skill">
+          <img src="https://th.bing.com/th/id/OIP.93nmuSRCmgrQTWyQ8fHNjAHaKy?rs=1&pid=ImgDetMain"/>
+          <h6>CSS</h6>
+          <p>3 months experience</p>
+        </div>  
+
+        <div class="skill">
+            <img src="html_finalprojimages/js.jpeg"/>
+            <h6>JavaScript</h6>
+            <p>3 months experience</p>
+          </div> 
+
+          <div class="skill">
+            <img src="https://www.pngfind.com/pngs/m/202-2026376_adobe-photoshop-logo-photoshop-cc-logo-png-transparent.png"/>
+            <h6>Photoshop</h6>
+            <p>6 months experience</p>
+          </div> 
+
+          <div class="skill">
+            <img src="https://th.bing.com/th/id/OIP.LlvOGmjnPnbrzIfloBB3vAAAAA?rs=1&pid=ImgDetMain"/>
+            <h6>Clip Studio Paint</h6>
+            <p>6 months experience</p>
+          </div> 
+
+      </div>
+    </section>
+          
+    <!-- Projects -->
+    <section class="projects" id="projects">
+      <h2>
+        Projects
+      </h2>
+      <div style="clear:both;"></div>
+
+        <div id="projects-container" class="projects-container">
+          <div class="project-card">
+            <h3>Website</h3>
+            <ul>
+              <li>Developed a secure portfolio website using HTML, CSS, JavaScript, and integrated with personal profile image on Behance</li>
+            </ul>
+          </div>
+          <hr>
+          <div class="project-card">
+            <h3>Presentation</h3>
+            <ul>
+              <li>Created an educational presentation using Slides built on JavaScript with multilingual support</li>
+            </ul>
+          </div>
+          <hr>
+          <div class="project-card">
+            <h3>Prosthetic hand (coming soon)</h3>
+            <ul>
+              <li>Designed a moving prototype using Photoshop and JavaScript</li>
+            </ul>
+          </div>
+    </div>
+    </section>
+    <div style="clear:both;"></div>
+
+    <!-- Recommendations -->
+    <section id="recommendations">
+      <h2>Recommendations</h2>
+      <div style="clear:both;"></div>
+      <div class="all_recommendations" id="all_recommendations">
+        <div class="recommendation">
+          <span>&#8220;</span>
+          I would call Rin a renaissance soul.
+          She absolutely embodies the best of both worlds - artistic vision and technical expertise.
+          I feel like I can always learn something new from her posts.
+          <span>&#8221;</span>
+        </div>
+        <div class="recommendation">
+          <span>&#8220;</span>
+          Working with Rin has been an eye-opening experience. 
+          She is highly knowledgable and always goes the extra mile with customer satisfaction. 
+          I would keep Rin's name in mind for an especially challenging project.
+          <span>&#8221;</span>
+        </div>
+        <div class="recommendation">
+          <span>&#8220;</span>
+          I had collaborated with Rin during the design for the prosthetic hand.
+          She always takes a realistic approach to adding functions and capabilities in her work.
+          I believe she will make great strides in the healthcare industry.
+          <span>&#8221;</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Recommendation Form -->
+    <section id="contact">
+      <div class="flex_center">
+        <fieldset>
+          <legend class="introduction">Leave a Recommendation</legend>          
+          <input type="text" placeholder="Name (Optional)"> <br/>
+          <textarea id="new_recommendation" cols="500" rows="10" placeholder="Message"></textarea>
+          <div class="flex_center">
+            <button id="recommend_btn" onclick="addRecommendation()">Submit</button>
+          </div>
+        </fieldset>
+      </div>
+    </section>
+
+    <div class="iconbutton">
+      <a href="#home">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" width="63px">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M15 11.25l-3-3m0 0l-3 3m3-3v7.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+          </svg>      </a>
+    </div>
+
+    <div class="popup" id="popup" class="flex_center">
+      <img src="html_finalprojimages/checkmark--outline.svg"/>
+      <h3>Thanks for your feedback!</h3>
+      <button onclick="showPopup(false)">Ok</button>
+    </div>
+  </body>
+</html>
